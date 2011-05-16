@@ -1,0 +1,143 @@
+﻿body {
+    font-family: Segoe UI, Tahoma;
+    font-size: 13px;
+    color: #333;
+}
+
+button {
+  background: #768CBC;
+  background-position: 0 -48px;
+  border-color: #29447E #29447E #1A356E #29447E;
+  border-width: 1px;
+  font-family: Tahoma;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 4px 6px;
+  color: white;
+  margin: 0;
+}
+
+.sourceText {
+  font-family: Consolas, Lucida Console;
+  font-size: 13px;
+}
+
+.wrap {
+  white-space: normal;
+}
+
+.data-results {
+  overflow: hidden;
+}
+
+.data-table-host,
+.data-form-host {
+  margin: 4px;
+}
+
+.data-table,
+.data-form {
+  font-family: Tahoma;
+  font-size: 11px;
+  border-collapse:collapse;
+  border: 1px solid #e0e0e0;
+}
+
+.data-table th,
+.data-form th {
+  background-color: #f0f0f0;
+  border: 1px solid #e0e0e0;
+  padding: 2px;
+}
+
+.data-table td,
+.data-form td {
+  padding: 3px;
+  border: 1px solid #e0e0e0;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.data-form td {
+  border: 1px solid #f0f0f0;
+}
+
+.data-cell input,
+.data-cell select {
+  font-family: Tahoma;
+  font-size: 11px;
+  border: 1px solid #4F6AA3;
+  display: inline-block;
+  margin: -2px; /* to account for the 1px border */
+  color: #333;
+}
+
+.data-cell input {
+  padding: 1px;
+}
+
+.data-cell select {
+  padding: 0 0 0 -2px;
+}
+
+.data-form-label {
+  font-weight: bold;
+  color: #999;
+  text-align: right;
+}
+
+.data-formula-bar {
+  font-family: Consolas, Lucida Console;
+  font-size: 11px;
+  margin: 4px;
+}
+
+.data-formula-bar input {
+  border: 1px solid #e0e0e0;
+  font-family: Consolas, Lucida Console;
+  font-size: 11px;
+  width: 100%;
+}
+
+.data-part {
+  font-size: 11px;
+  border: 1px solid #768CBC;
+  margin: 4px 0;
+}
+
+.data-part-caption {
+  background: #768CBC;
+  padding: 4px;
+}
+
+.data-part-name {
+  font-weight: bold;
+  color: white;
+  margin: 0 4px 0 0;
+}
+
+.page-index-panel {
+  margin: 4px;
+}
+
+.page-index-panel .page-index {
+  padding: 2px;
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  min-width: 12px;
+  text-align: center;
+  cursor: hand;
+  cursor: pointer;
+  margin: 0 1px;
+}
+
+.page-index-panel .page-selected {
+  font-weight: bold;
+  color: #4F6AA3;
+  padding: 0 4px;
+}
+
+.page-index-panel .page-index:hover {
+  background: #f0f0f0;
+}
